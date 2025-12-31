@@ -1,2 +1,2 @@
 # renull256-alpha-os
-The experimental OS made by renull256
+This repository contains an experimental operating system developed for learning and prototyping purposes.
