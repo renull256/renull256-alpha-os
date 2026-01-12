@@ -1,0 +1,8 @@
+[package]
+name = "renull256-alpha-os"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+uefi = "0.24.0"
+uefi-services = "0.21.0"

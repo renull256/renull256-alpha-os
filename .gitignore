@@ -1,0 +1,7 @@
+*.o
+*.efi
+*.log
+run/
+
+/target/
+/esp/
