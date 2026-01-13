@@ -15,10 +15,24 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "812e12b5285cc515a9c72a5c1d3b6d46a19dac5acfef5265968c166106e31dd3"
 
 [[package]]
+name = "bootloader"
+version = "0.1.0"
+dependencies = [
+ "kernel",
+ "log",
+ "uefi",
+ "uefi-services",
+]
+
+[[package]]
 name = "cfg-if"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801"
+
+[[package]]
+name = "kernel"
+version = "0.1.0"
 
 [[package]]
 name = "log"
@@ -62,14 +76,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "dc74d9a594b72ae6656596548f56f667211f8a97b3d4c3d467150794690dc40a"
 dependencies = [
  "proc-macro2",
-]
-
-[[package]]
-name = "renull256-alpha-os"
-version = "0.1.0"
-dependencies = [
- "uefi",
- "uefi-services",
 ]
 
 [[package]]

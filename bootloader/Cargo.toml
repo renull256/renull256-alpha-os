@@ -1,0 +1,15 @@
+[package]
+name = "bootloader"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "BOOTX64"
+path = "src/main.rs"
+
+[dependencies]
+uefi = "0.24.0"
+uefi-services = "0.21.0"
+log = "0.4"
+# ローカルパスでカーネルを指定
+kernel = { path = "../kernel" }

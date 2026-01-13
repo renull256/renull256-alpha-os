@@ -1,5 +1,5 @@
 TARGET = x86_64-unknown-uefi
-EFI_FILE = target/$(TARGET)/debug/renull256-alpha-os.efi
+EFI_FILE = target/x86_64-unknown-uefi/debug/BOOTX64.efi
 OVMF = /usr/share/ovmf/OVMF.fd
 
 run:
