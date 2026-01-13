@@ -14,8 +14,8 @@ sudo apt install qemu-system-x86 ovmf
 ```
 
 ### Build and Run
- 1. clone this repository.
- 2. move to the root directory of this project.
+ 1. Clone this repository.
+ 2. Move to the root directory of this project.
  3. Run the following command:
  ```sh
  make
