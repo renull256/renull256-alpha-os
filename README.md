@@ -1,21 +1,29 @@
 # renull256-alpha-os
 This repository contains an experimental operating system developed for learning and prototyping purposes.
 
-## Get started
+## Getting started
 ### Prerequisites
  - Rust
  - QEMU
  - OVMF  
-Executing the folloing command, you can install Rust, QEMU and OVMF in Linux.  
-```
-  rustup target add x86_64-unknown-uefi  
-  sudo apt install qemu-system-x86 ovmf
+You can install the required tools on Linux by running the following commands:
+
+```sh
+rustup target add x86_64-unknown-uefi
+sudo apt install qemu-system-x86 ovmf
 ```
 
-### Execute
+### Build and Run
  1. clone this repository.
- 2. move the root directory in this project.
- 3. type the ``` make ``` command in terminal.
+ 2. move to the root directory of this project.
+ 3. Run the following command:
+ ```sh
+ make
+ ```
+
+ ### Notes
+- The paths to QEMU and OVMF may differ depending on the environment.
+- If the build or execution fails, please adjust the paths in the Makefile accordingly.
 
 ## Current Features
 - Booting from UEFI to kernel
