@@ -6,3 +6,6 @@ edition = "2021"
 [lib]
 name = "kernel"
 crate-type = ["rlib"]
+
+[build-dependencies]
+fontdue = "0.7" # フォントのラスタライズライブラリ
